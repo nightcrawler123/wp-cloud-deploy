@@ -1,0 +1,19 @@
+{
+  "name" : "WP Cloud Deploy",
+  "slug" : "wp-cloud-deploy",
+  "author" : "<a href='https://adsit.work/‘>Adsit.Work</a>",
+  "author_profile" : "https://adsit.work",
+  "version" : "5.8.1",
+  "download_url" : "https://github.com/nightcrawler123/wp-cloud-deploy/releases/download/5.8.1/wp-cloud-deploy-V5-8-1.zip",
+  "requires" : "5.8",
+  "tested" : "6.6",
+  "requires_php" : "7.4",
+  "added" : "2024-07-24 02:10:00",
+  "last_updated" : "2024-07-24 02:10:00",
+  "homepage" : "https://adsit.work",
+  "sections" : {
+    "description" : "Deploy and manage cloud servers and apps from inside the WordPress Admin dashboard.",
+    "installation" : "Click the activate button and that's it.",
+    "changelog" : "<h1><strong>5.8.1</strong></h1>\n<ul>\n    <li>Fix: Resolved the issue with &quot;One Click Login&quot; generation. The problem occurred when the login link was not sent.</li>\n    <li>Enhancement: The WordPress version fetching mechanism was improved Previously, it relied on a manually updated array; this has been upgraded to an API that automatically fetches the latest versions. This is considered a new feature.</li>\n    <li>New: Added apply_filters(&apos;wpcd_allowed_min_wp_version&apos;, $min_version); to allow users to specify the minimum allowed WordPress version, with a default set to 6.1.4.</li>\n    <li>New: Introduced a new setting (option) named &quot;Min Allowed WP Versions&quot; in the WPCD settings to enable users to set the minimum allowed WordPress version.</li>\n    <li>Fix compatibility issue with MariaDB 10.4+ dump files.</li>\n    <li>Tweak: WPAPP - Updated WP version list to the latest versions.</li>\n    <li>New: Added an update message inside the plugin in WordPress to receive the latest versions of the plugin.</li>\n    <li>Fix: Prevent server restart nginx when creating a site.</li>\n    <li>Fix: Prevent the server restart nginx when changing the domain.</li>\n    <li>Tweak: WPAPP - Updated WP version list to the latest versions.</li>\n</ul>"
+  }
+}
